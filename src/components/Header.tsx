@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
         <h1>React + TS todo</h1>
     </header>
   )
